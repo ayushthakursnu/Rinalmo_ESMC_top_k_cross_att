@@ -1,0 +1,7 @@
+# torch is already in your env (torch 2.11 + cu128 wheel)
+numpy
+pandas
+scipy
+scikit-learn
+multimolecule          # RiNALMo-giga: multimolecule/rinalmo-giga
+esm                    # ESMC-600m (Biohub/esm). esm>=3.4 needs Python>=3.12; on 3.10/3.11 use an older esm 3.x

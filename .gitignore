@@ -1,0 +1,51 @@
+# Cached embeddings
+cache/
+
+# Training logs
+logs/
+*.log
+
+# Experiment results
+results/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model checkpoints and weights
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.pkl
+*.pickle
+
+# Large embedding and dataset formats
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.parquet
+
+# Compressed files
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Sensitive environment files
+.env
+.env.*
+
+# Miscellaneous
+.DS_Store
+.ipynb_checkpoints/
